@@ -43,7 +43,7 @@ public class CarController {
         return "Deleted car with ID "+id;
     }
 
-    //localhost:8080/api/put/3    
+    //localhost:8080/api/put/3
     @PutMapping(path = "/put/{id}")
     public CarPojo updateCar(@RequestBody CarPojo carPojoOne , @PathVariable int id){
 
