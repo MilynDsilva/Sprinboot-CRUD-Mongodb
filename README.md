@@ -7,10 +7,11 @@
 #### - Requires MongoDB database: https://www.mongodb.com/try/download/community
 #### - Requires API end point testing tool (Postman recommended) : https://www.postman.com/downloads/
 ###### Sample api object body :
-```{
-"id":3,
-"name":"SomeCar",
-"color":"SomeColor"
+```
+{
+    "id":3,
+    "name":"SomeCar",
+    "color":"SomeColor"
 }
 ```
 ###### **To run**: ```mvn spring-boot:run```
